@@ -3,7 +3,7 @@ name: Daily Check-in
 on:
   schedule:
     #- cron: '0 1 * * *'  # 每天1点 UTC 时间执行
-    - cron: "35 16,7 * * *"
+    - cron: "12 5 * * *"
 
   workflow_dispatch:
 
